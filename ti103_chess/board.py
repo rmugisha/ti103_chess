@@ -68,7 +68,7 @@ class Piece:
         """
         Retourne la case correspondante de la piece affichee a l'ecran.
         """
-        return chr(97 + (self.x // 85)) + str(((680 - self.y) // 85) + 1)
+        return chr(97 + (self.x // 85)) + str(((680 - self.y) // 85))
 
 
 class Echiquier:
